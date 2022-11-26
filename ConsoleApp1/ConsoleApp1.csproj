@@ -59,6 +59,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryDesignPattern\Client.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\ICommand.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\IConnection.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\IDatabase.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\ODBCCommand.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\ODBCConnection.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\ODBCDatabase.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\SqlDatabase.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\SqlDbCommand.cs" />
+    <Compile Include="AbstractFactoryDesignPattern\SqlDbConnection.cs" />
     <Compile Include="BridgeDesignPattern\Client.cs" />
     <Compile Include="BridgeDesignPattern\Hetrogenious.cs" />
     <Compile Include="BridgeDesignPattern\IProgLangOops.cs" />
@@ -75,6 +85,16 @@
     <Compile Include="BuilderDesignPattern\IHouseBuilder.cs" />
     <Compile Include="BuilderDesignPattern\WoodenHouseBuilder.cs" />
     <Compile Include="Composite\CompositeDesignPattern.cs" />
+    <Compile Include="FactoryDesignPattern\HttpSocket.cs" />
+    <Compile Include="FactoryDesignPattern\ISocket.cs" />
+    <Compile Include="FactoryDesignPattern\SocketFactory.cs" />
+    <Compile Include="FactoryDesignPattern\TcpSocket.cs" />
+    <Compile Include="FactoryDesignPattern\WebSocket.cs" />
+    <Compile Include="FlyweightDesignPattern\Circle.cs" />
+    <Compile Include="FlyweightDesignPattern\Client.cs" />
+    <Compile Include="FlyweightDesignPattern\IShape.cs" />
+    <Compile Include="FlyweightDesignPattern\Rectangle.cs" />
+    <Compile Include="FlyweightDesignPattern\ShapeFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyDesignPattern\Browser.cs" />

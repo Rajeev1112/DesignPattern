@@ -13,7 +13,7 @@ namespace ConsoleApp1
         {
 
 
-            BuilderDesignPattern.Client client = new BuilderDesignPattern.Client();
+            FlyweightDesignPattern.Client client = new FlyweightDesignPattern.Client();
             client.Execute();
 
             Console.ReadLine();
